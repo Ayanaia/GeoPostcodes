@@ -1,0 +1,93 @@
+.landing-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f7fa;
+  color: #333;
+  min-height: 100vh;
+  position: relative;
+}
+
+.landing-page__content {
+  padding: 40px 20px;
+}
+
+.landing-page__content h1 {
+  font-size: 2.5rem;
+  color: #012a4a;
+  margin-bottom: 30px;
+}
+
+.landing-page__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two cards per row :) */
+  gap: 40px;
+  justify-content: center;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #dbe7f2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card p {
+  white-space: nowrap;
+  font-size: 1.2rem;
+  color: #012a4a;
+  font-weight: bold;
+  margin: 0;
+  z-index: 1;
+}
+
+.card img {
+  align-self: flex-end;
+  justify-self: flex-end;
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+}
+
+/* Specific adjustments for Data Explorer */
+.card[data-name="Data Explorer"] img {
+  width: 120%;
+  margin-bottom: -120px;
+  margin-left: -70px;
+}
+
+/* Specific adjustments for Map Explorer */
+.card[data-name="Map Explorer"] img {
+  width: 70%;
+  margin-bottom: -20px;
+  margin-right: -20px;
+}
+
+/* Globe Image*/
+.landing-page__background-globe {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+  opacity: 1;
+  padding-top: 40px;
+  margin-bottom: -2.8rem;
+}

@@ -1,4 +1,4 @@
-Aya Kardes - GeoPostcodes technical test.
+Aya Kardes - GeoPostcodes technical test
 
 ## Installation Instructions
 

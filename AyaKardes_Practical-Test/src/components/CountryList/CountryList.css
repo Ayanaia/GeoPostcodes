@@ -1,0 +1,40 @@
+.continent__section {
+  margin-bottom: 3.5rem;
+}
+
+.continent__title {
+  font-size: 1.65rem;
+  font-weight: 300;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+}
+
+.country__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  list-style-type: none;
+  padding: 0;
+  gap: 15px;
+}
+
+.country__item {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #000000;
+  text-decoration: none;
+}
+
+.country__flag {
+  width: 24px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.country__item a {
+  text-decoration: none;
+  color: #439fe0;
+  font-weight: 500;
+}

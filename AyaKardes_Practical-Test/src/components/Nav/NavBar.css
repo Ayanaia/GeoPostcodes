@@ -1,0 +1,68 @@
+.navbar {
+  background-color: #012a4a;
+  padding: 10px 40px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.navbar__links a {
+  color: #dad7d7;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: light;
+}
+
+.navbar__links a:hover {
+  border-bottom: 2px solid #4dabf5;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.navbar__username {
+  font-weight: bold;
+  color: #d8d8d8;
+}
+
+.navbar__user-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+.navbar_email {
+  font-weight: lighter;
+}
+
+.navbar__user-icon {
+  width: 40px;
+  height: 40px;
+}
