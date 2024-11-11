@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3bfa9c9.css",
+    "main.js": "/static/js/main.93be1bc2.js",
+    "static/media/map_explorer.webp": "/static/media/map_explorer.405e27e11295676d84ea.webp",
+    "static/media/main_background.webp": "/static/media/main_background.5ff406c6ab4738dd9208.webp",
+    "static/media/data_explorer.svg": "/static/media/data_explorer.162d351920a2fddb6a3111010d0a6a95.svg",
+    "static/media/dowload_center.svg": "/static/media/dowload_center.619ff0c83b7a1a774a1afec524cd7674.svg",
+    "static/media/Geopostcodes-logo-header.svg": "/static/media/Geopostcodes-logo-header.dd32e925f85063ddccb52c069c4f9480.svg",
+    "static/media/kb.svg": "/static/media/kb.87ef3fe0d80600e3445aa25111c742bc.svg",
+    "index.html": "/index.html",
+    "static/media/user.svg": "/static/media/user.5443d908f86ed5d4934d6fffdd9986cc.svg",
+    "main.d3bfa9c9.css.map": "/static/css/main.d3bfa9c9.css.map",
+    "main.93be1bc2.js.map": "/static/js/main.93be1bc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3bfa9c9.css",
+    "static/js/main.93be1bc2.js"
+  ]
+}

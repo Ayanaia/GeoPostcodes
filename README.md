@@ -2,7 +2,7 @@ Aya Kardes - GeoPostcodes technical test
 
 ## Installation Instructions
 
-1. Install node modules:
+1. Install node modules if not installed already:
 
 ```bash
 npm install
