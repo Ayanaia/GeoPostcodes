@@ -4,6 +4,7 @@
   padding: 20px 40px;
   text-align: center;
   font-size: 0.9rem;
+  display: fixed;
 }
 
 .footer__content {
@@ -12,10 +13,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .footer__links {
   margin-top: 10px;
+  display: flex;
+  gap: 15px;
 }
 
 .footer__links a {
@@ -27,4 +31,17 @@
 
 .footer__links a:hover {
   text-decoration: underline;
+}
+
+/* Responsive layout for footer */
+@media (max-width: 768px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    gap: 5px;
+  }
 }

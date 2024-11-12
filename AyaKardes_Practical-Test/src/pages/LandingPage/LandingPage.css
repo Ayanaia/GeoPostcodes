@@ -26,6 +26,31 @@
   margin: 0 auto;
 }
 
+/* Responsive layout */
+
+@media (max-width: 950px) {
+  .landing-page__cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+.card {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+@media (max-width: 5800px) {
+  .card p {
+    font-size: 1rem;
+  }
+
+  .card img {
+    width: 50%;
+  }
+}
+
 .card {
   position: relative;
   display: flex;
